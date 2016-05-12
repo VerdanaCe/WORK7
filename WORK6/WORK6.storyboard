@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--RecentVC-->
+        <scene sceneID="c8r-Pi-lvi">
+            <objects>
+                <viewController title="RecentVC" id="pt8-ui-a7N" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5dA-Kf-ddf"/>
+                        <viewControllerLayoutGuide type="bottom" id="6SK-N1-DVP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c6h-yy-dxX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cFz-qx-eNb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="239.5" y="-414.5"/>
+        </scene>
+        <!--ContactVC-->
+        <scene sceneID="6O6-u0-I5S">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1HL-Mx-734" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController title="ContactVC" id="QSx-FP-Wwn" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="8ri-BU-18Q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="gTD-jV-wNf">
+                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gTD-jV-wNf" id="zmH-Bg-uH8">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <animations/>
+                                </tableViewCellContentView>
+                                <animations/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="QSx-FP-Wwn" id="aOk-NP-Ayl"/>
+                            <outlet property="delegate" destination="QSx-FP-Wwn" id="JPT-LY-Q89"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Contacts" id="rTa-x7-c7x">
+                        <barButtonItem key="leftBarButtonItem" title="Recents" id="wJI-bc-bxn"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="nYA-Me-w0B"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="246.5" y="333.5"/>
+        </scene>
+        <!--AddViewVC-->
+        <scene sceneID="za8-f3-qRn">
+            <objects>
+                <viewController title="AddViewVC" id="oyc-tv-vDR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qix-eS-BVa"/>
+                        <viewControllerLayoutGuide type="bottom" id="IKU-PX-J2P"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j9k-oD-FTI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sXu-M9-fHD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="707.5" y="333.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="LPL-E9-MfN">
+            <objects>
+                <navigationController id="NqJ-a9-6oq" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ubt-O2-t7K">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="QSx-FP-Wwn" kind="relationship" relationship="rootViewController" id="YvJ-yn-9DY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="obl-MC-Z2l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-277" y="334"/>
+        </scene>
+    </scenes>
+</document>
