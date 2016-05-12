@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8465CADC1CE4A1B100111FF3 /* imageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 8465CADB1CE4A1B100111FF3 /* imageView.png */; settings = {ASSET_TAGS = (); }; };
 		84F58BF51CE49C5000B33E88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F58BF41CE49C5000B33E88 /* main.m */; };
 		84F58BF81CE49C5000B33E88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F58BF71CE49C5000B33E88 /* AppDelegate.m */; };
-		84F58BFB1CE49C5000B33E88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F58BFA1CE49C5000B33E88 /* ViewController.m */; };
 		84F58BFE1CE49C5000B33E88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F58BFC1CE49C5000B33E88 /* Main.storyboard */; };
 		84F58C011CE49C5000B33E88 /* WORK6.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84F58BFF1CE49C5000B33E88 /* WORK6.xcdatamodeld */; };
 		84F58C031CE49C5000B33E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C021CE49C5000B33E88 /* Assets.xcassets */; };
 		84F58C061CE49C5000B33E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C041CE49C5000B33E88 /* LaunchScreen.storyboard */; };
 		84F58C111CE49C5000B33E88 /* WORK6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F58C101CE49C5000B33E88 /* WORK6Tests.m */; };
 		84F58C1C1CE49C5000B33E88 /* WORK6UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F58C1B1CE49C5000B33E88 /* WORK6UITests.m */; };
+		84F58C3E1CE49CD800B33E88 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C2A1CE49CD800B33E88 /* add.png */; settings = {ASSET_TAGS = (); }; };
+		84F58C3F1CE49CD800B33E88 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C2B1CE49CD800B33E88 /* back.png */; settings = {ASSET_TAGS = (); }; };
+		84F58C401CE49CD800B33E88 /* book2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C2C1CE49CD800B33E88 /* book2.png */; settings = {ASSET_TAGS = (); }; };
+		84F58C411CE49CD800B33E88 /* book29.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C2D1CE49CD800B33E88 /* book29.png */; settings = {ASSET_TAGS = (); }; };
+		84F58C421CE49CD800B33E88 /* book40.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C2E1CE49CD800B33E88 /* book40.png */; settings = {ASSET_TAGS = (); }; };
+		84F58C431CE49CD800B33E88 /* book58.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C2F1CE49CD800B33E88 /* book58.png */; settings = {ASSET_TAGS = (); }; };
+		84F58C441CE49CD800B33E88 /* book80.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C301CE49CD800B33E88 /* book80.png */; settings = {ASSET_TAGS = (); }; };
+		84F58C451CE49CD800B33E88 /* book87.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C311CE49CD800B33E88 /* book87.png */; settings = {ASSET_TAGS = (); }; };
+		84F58C461CE49CD800B33E88 /* book120-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C321CE49CD800B33E88 /* book120-1.png */; settings = {ASSET_TAGS = (); }; };
+		84F58C471CE49CD800B33E88 /* book120.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C331CE49CD800B33E88 /* book120.png */; settings = {ASSET_TAGS = (); }; };
+		84F58C481CE49CD800B33E88 /* book180.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C341CE49CD800B33E88 /* book180.png */; settings = {ASSET_TAGS = (); }; };
+		84F58C491CE49CD800B33E88 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C351CE49CD800B33E88 /* clock.png */; settings = {ASSET_TAGS = (); }; };
+		84F58C4A1CE49CD800B33E88 /* contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C361CE49CD800B33E88 /* contacts.png */; settings = {ASSET_TAGS = (); }; };
+		84F58C4B1CE49CD800B33E88 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C371CE49CD800B33E88 /* CustomCell.xib */; settings = {ASSET_TAGS = (); }; };
+		84F58C4C1CE49CD800B33E88 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C381CE49CD800B33E88 /* delete.png */; settings = {ASSET_TAGS = (); }; };
+		84F58C4D1CE49CD800B33E88 /* edit user.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C391CE49CD800B33E88 /* edit user.png */; settings = {ASSET_TAGS = (); }; };
+		84F58C4E1CE49CD800B33E88 /* phone-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C3A1CE49CD800B33E88 /* phone-red.png */; settings = {ASSET_TAGS = (); }; };
+		84F58C4F1CE49CD800B33E88 /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C3B1CE49CD800B33E88 /* phone.png */; settings = {ASSET_TAGS = (); }; };
+		84F58C501CE49CD800B33E88 /* phone68.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C3C1CE49CD800B33E88 /* phone68.png */; settings = {ASSET_TAGS = (); }; };
+		84F58C511CE49CD800B33E88 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C3D1CE49CD800B33E88 /* photo.png */; settings = {ASSET_TAGS = (); }; };
+		84F58C531CE49F3B00B33E88 /* AddContactView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C521CE49F3B00B33E88 /* AddContactView.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +57,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8465CADB1CE4A1B100111FF3 /* imageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageView.png; sourceTree = "<group>"; };
 		84F58BF01CE49C5000B33E88 /* WORK6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WORK6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F58BF41CE49C5000B33E88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84F58BF61CE49C5000B33E88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84F58BF71CE49C5000B33E88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84F58BF91CE49C5000B33E88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84F58BFA1CE49C5000B33E88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84F58BFD1CE49C5000B33E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84F58C001CE49C5000B33E88 /* WORK6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WORK6.xcdatamodel; sourceTree = "<group>"; };
 		84F58C021CE49C5000B33E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +73,27 @@
 		84F58C171CE49C5000B33E88 /* WORK6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WORK6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F58C1B1CE49C5000B33E88 /* WORK6UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WORK6UITests.m; sourceTree = "<group>"; };
 		84F58C1D1CE49C5000B33E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F58C2A1CE49CD800B33E88 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		84F58C2B1CE49CD800B33E88 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		84F58C2C1CE49CD800B33E88 /* book2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book2.png; sourceTree = "<group>"; };
+		84F58C2D1CE49CD800B33E88 /* book29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book29.png; sourceTree = "<group>"; };
+		84F58C2E1CE49CD800B33E88 /* book40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book40.png; sourceTree = "<group>"; };
+		84F58C2F1CE49CD800B33E88 /* book58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book58.png; sourceTree = "<group>"; };
+		84F58C301CE49CD800B33E88 /* book80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book80.png; sourceTree = "<group>"; };
+		84F58C311CE49CD800B33E88 /* book87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book87.png; sourceTree = "<group>"; };
+		84F58C321CE49CD800B33E88 /* book120-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book120-1.png"; sourceTree = "<group>"; };
+		84F58C331CE49CD800B33E88 /* book120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book120.png; sourceTree = "<group>"; };
+		84F58C341CE49CD800B33E88 /* book180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book180.png; sourceTree = "<group>"; };
+		84F58C351CE49CD800B33E88 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		84F58C361CE49CD800B33E88 /* contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contacts.png; sourceTree = "<group>"; };
+		84F58C371CE49CD800B33E88 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		84F58C381CE49CD800B33E88 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		84F58C391CE49CD800B33E88 /* edit user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit user.png"; sourceTree = "<group>"; };
+		84F58C3A1CE49CD800B33E88 /* phone-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone-red.png"; sourceTree = "<group>"; };
+		84F58C3B1CE49CD800B33E88 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		84F58C3C1CE49CD800B33E88 /* phone68.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone68.png; sourceTree = "<group>"; };
+		84F58C3D1CE49CD800B33E88 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		84F58C521CE49F3B00B33E88 /* AddContactView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddContactView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +144,9 @@
 		84F58BF21CE49C5000B33E88 /* WORK6 */ = {
 			isa = PBXGroup;
 			children = (
+				84F58C291CE49CB700B33E88 /* Images */,
 				84F58BF61CE49C5000B33E88 /* AppDelegate.h */,
 				84F58BF71CE49C5000B33E88 /* AppDelegate.m */,
-				84F58BF91CE49C5000B33E88 /* ViewController.h */,
-				84F58BFA1CE49C5000B33E88 /* ViewController.m */,
 				84F58BFC1CE49C5000B33E88 /* Main.storyboard */,
 				84F58C021CE49C5000B33E88 /* Assets.xcassets */,
 				84F58C041CE49C5000B33E88 /* LaunchScreen.storyboard */,
@@ -120,6 +160,8 @@
 		84F58BF31CE49C5000B33E88 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84F58C521CE49F3B00B33E88 /* AddContactView.xib */,
+				84F58C371CE49CD800B33E88 /* CustomCell.xib */,
 				84F58BF41CE49C5000B33E88 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -141,6 +183,33 @@
 				84F58C1D1CE49C5000B33E88 /* Info.plist */,
 			);
 			path = WORK6UITests;
+			sourceTree = "<group>";
+		};
+		84F58C291CE49CB700B33E88 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8465CADB1CE4A1B100111FF3 /* imageView.png */,
+				84F58C2A1CE49CD800B33E88 /* add.png */,
+				84F58C2B1CE49CD800B33E88 /* back.png */,
+				84F58C2C1CE49CD800B33E88 /* book2.png */,
+				84F58C2D1CE49CD800B33E88 /* book29.png */,
+				84F58C2E1CE49CD800B33E88 /* book40.png */,
+				84F58C2F1CE49CD800B33E88 /* book58.png */,
+				84F58C301CE49CD800B33E88 /* book80.png */,
+				84F58C311CE49CD800B33E88 /* book87.png */,
+				84F58C321CE49CD800B33E88 /* book120-1.png */,
+				84F58C331CE49CD800B33E88 /* book120.png */,
+				84F58C341CE49CD800B33E88 /* book180.png */,
+				84F58C351CE49CD800B33E88 /* clock.png */,
+				84F58C361CE49CD800B33E88 /* contacts.png */,
+				84F58C381CE49CD800B33E88 /* delete.png */,
+				84F58C391CE49CD800B33E88 /* edit user.png */,
+				84F58C3A1CE49CD800B33E88 /* phone-red.png */,
+				84F58C3B1CE49CD800B33E88 /* phone.png */,
+				84F58C3C1CE49CD800B33E88 /* phone68.png */,
+				84F58C3D1CE49CD800B33E88 /* photo.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +315,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F58C441CE49CD800B33E88 /* book80.png in Resources */,
+				84F58C471CE49CD800B33E88 /* book120.png in Resources */,
 				84F58C061CE49C5000B33E88 /* LaunchScreen.storyboard in Resources */,
+				84F58C531CE49F3B00B33E88 /* AddContactView.xib in Resources */,
+				84F58C3F1CE49CD800B33E88 /* back.png in Resources */,
+				84F58C411CE49CD800B33E88 /* book29.png in Resources */,
+				84F58C461CE49CD800B33E88 /* book120-1.png in Resources */,
+				84F58C491CE49CD800B33E88 /* clock.png in Resources */,
 				84F58C031CE49C5000B33E88 /* Assets.xcassets in Resources */,
+				84F58C421CE49CD800B33E88 /* book40.png in Resources */,
+				84F58C511CE49CD800B33E88 /* photo.png in Resources */,
+				84F58C4D1CE49CD800B33E88 /* edit user.png in Resources */,
+				84F58C4E1CE49CD800B33E88 /* phone-red.png in Resources */,
+				84F58C4B1CE49CD800B33E88 /* CustomCell.xib in Resources */,
 				84F58BFE1CE49C5000B33E88 /* Main.storyboard in Resources */,
+				84F58C451CE49CD800B33E88 /* book87.png in Resources */,
+				84F58C4C1CE49CD800B33E88 /* delete.png in Resources */,
+				84F58C431CE49CD800B33E88 /* book58.png in Resources */,
+				84F58C3E1CE49CD800B33E88 /* add.png in Resources */,
+				84F58C4F1CE49CD800B33E88 /* phone.png in Resources */,
+				84F58C481CE49CD800B33E88 /* book180.png in Resources */,
+				8465CADC1CE4A1B100111FF3 /* imageView.png in Resources */,
+				84F58C4A1CE49CD800B33E88 /* contacts.png in Resources */,
+				84F58C501CE49CD800B33E88 /* phone68.png in Resources */,
+				84F58C401CE49CD800B33E88 /* book2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +364,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F58BFB1CE49C5000B33E88 /* ViewController.m in Sources */,
 				84F58BF81CE49C5000B33E88 /* AppDelegate.m in Sources */,
 				84F58BF51CE49C5000B33E88 /* main.m in Sources */,
 				84F58C011CE49C5000B33E88 /* WORK6.xcdatamodeld in Sources */,
@@ -500,6 +590,7 @@
 				84F58C221CE49C5000B33E88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84F58C231CE49C5000B33E88 /* Build configuration list for PBXNativeTarget "WORK6Tests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +599,7 @@
 				84F58C251CE49C5000B33E88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84F58C261CE49C5000B33E88 /* Build configuration list for PBXNativeTarget "WORK6UITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +608,7 @@
 				84F58C281CE49C5000B33E88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
