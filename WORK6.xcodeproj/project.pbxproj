@@ -8,9 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		8465CADC1CE4A1B100111FF3 /* imageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 8465CADB1CE4A1B100111FF3 /* imageView.png */; settings = {ASSET_TAGS = (); }; };
+		8465CAE11CE4A90700111FF3 /* WORK6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8465CAE01CE4A90700111FF3 /* WORK6.storyboard */; settings = {ASSET_TAGS = (); }; };
+		8465CAEA1CE4B18F00111FF3 /* Call+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465CAE31CE4B18F00111FF3 /* Call+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		8465CAEB1CE4B18F00111FF3 /* Call.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465CAE51CE4B18F00111FF3 /* Call.m */; settings = {ASSET_TAGS = (); }; };
+		8465CAEC1CE4B18F00111FF3 /* Contact+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465CAE71CE4B18F00111FF3 /* Contact+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		8465CAED1CE4B18F00111FF3 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465CAE91CE4B18F00111FF3 /* Contact.m */; settings = {ASSET_TAGS = (); }; };
+		8465CB2D1CE4F04A00111FF3 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465CB2C1CE4F04A00111FF3 /* TableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8465CB301CE4F32F00111FF3 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465CB2F1CE4F32F00111FF3 /* CustomCell.m */; settings = {ASSET_TAGS = (); }; };
+		8465CB341CE50A8300111FF3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465CB331CE50A8300111FF3 /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
 		84F58BF51CE49C5000B33E88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F58BF41CE49C5000B33E88 /* main.m */; };
 		84F58BF81CE49C5000B33E88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F58BF71CE49C5000B33E88 /* AppDelegate.m */; };
-		84F58BFE1CE49C5000B33E88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F58BFC1CE49C5000B33E88 /* Main.storyboard */; };
 		84F58C011CE49C5000B33E88 /* WORK6.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84F58BFF1CE49C5000B33E88 /* WORK6.xcdatamodeld */; };
 		84F58C031CE49C5000B33E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C021CE49C5000B33E88 /* Assets.xcassets */; };
 		84F58C061CE49C5000B33E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F58C041CE49C5000B33E88 /* LaunchScreen.storyboard */; };
@@ -58,11 +65,25 @@
 
 /* Begin PBXFileReference section */
 		8465CADB1CE4A1B100111FF3 /* imageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageView.png; sourceTree = "<group>"; };
+		8465CAE01CE4A90700111FF3 /* WORK6.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WORK6.storyboard; sourceTree = "<group>"; };
+		8465CAE21CE4B18F00111FF3 /* Call+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Call+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8465CAE31CE4B18F00111FF3 /* Call+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Call+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8465CAE41CE4B18F00111FF3 /* Call.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Call.h; sourceTree = "<group>"; };
+		8465CAE51CE4B18F00111FF3 /* Call.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Call.m; sourceTree = "<group>"; };
+		8465CAE61CE4B18F00111FF3 /* Contact+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Contact+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8465CAE71CE4B18F00111FF3 /* Contact+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Contact+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8465CAE81CE4B18F00111FF3 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		8465CAE91CE4B18F00111FF3 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		8465CB2B1CE4F04A00111FF3 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		8465CB2C1CE4F04A00111FF3 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		8465CB2E1CE4F32F00111FF3 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		8465CB2F1CE4F32F00111FF3 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		8465CB321CE50A8300111FF3 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8465CB331CE50A8300111FF3 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		84F58BF01CE49C5000B33E88 /* WORK6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WORK6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F58BF41CE49C5000B33E88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84F58BF61CE49C5000B33E88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84F58BF71CE49C5000B33E88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84F58BFD1CE49C5000B33E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84F58C001CE49C5000B33E88 /* WORK6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WORK6.xcdatamodel; sourceTree = "<group>"; };
 		84F58C021CE49C5000B33E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F58C051CE49C5000B33E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -121,6 +142,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8465CAEE1CE4B19900111FF3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8465CAE21CE4B18F00111FF3 /* Call+CoreDataProperties.h */,
+				8465CAE31CE4B18F00111FF3 /* Call+CoreDataProperties.m */,
+				8465CAE41CE4B18F00111FF3 /* Call.h */,
+				8465CAE51CE4B18F00111FF3 /* Call.m */,
+				8465CAE61CE4B18F00111FF3 /* Contact+CoreDataProperties.h */,
+				8465CAE71CE4B18F00111FF3 /* Contact+CoreDataProperties.m */,
+				8465CAE81CE4B18F00111FF3 /* Contact.h */,
+				8465CAE91CE4B18F00111FF3 /* Contact.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		84F58BE71CE49C4F00B33E88 = {
 			isa = PBXGroup;
 			children = (
@@ -144,15 +180,19 @@
 		84F58BF21CE49C5000B33E88 /* WORK6 */ = {
 			isa = PBXGroup;
 			children = (
-				84F58C291CE49CB700B33E88 /* Images */,
 				84F58BF61CE49C5000B33E88 /* AppDelegate.h */,
 				84F58BF71CE49C5000B33E88 /* AppDelegate.m */,
-				84F58BFC1CE49C5000B33E88 /* Main.storyboard */,
-				84F58C021CE49C5000B33E88 /* Assets.xcassets */,
 				84F58C041CE49C5000B33E88 /* LaunchScreen.storyboard */,
-				84F58C071CE49C5000B33E88 /* Info.plist */,
+				8465CAE01CE4A90700111FF3 /* WORK6.storyboard */,
 				84F58BFF1CE49C5000B33E88 /* WORK6.xcdatamodeld */,
+				8465CAEE1CE4B19900111FF3 /* Models */,
 				84F58BF31CE49C5000B33E88 /* Supporting Files */,
+				8465CB2B1CE4F04A00111FF3 /* TableViewController.h */,
+				8465CB2C1CE4F04A00111FF3 /* TableViewController.m */,
+				8465CB2E1CE4F32F00111FF3 /* CustomCell.h */,
+				8465CB2F1CE4F32F00111FF3 /* CustomCell.m */,
+				8465CB321CE50A8300111FF3 /* DetailViewController.h */,
+				8465CB331CE50A8300111FF3 /* DetailViewController.m */,
 			);
 			path = WORK6;
 			sourceTree = "<group>";
@@ -160,6 +200,9 @@
 		84F58BF31CE49C5000B33E88 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84F58C291CE49CB700B33E88 /* Images */,
+				84F58C071CE49C5000B33E88 /* Info.plist */,
+				84F58C021CE49C5000B33E88 /* Assets.xcassets */,
 				84F58C521CE49F3B00B33E88 /* AddContactView.xib */,
 				84F58C371CE49CD800B33E88 /* CustomCell.xib */,
 				84F58BF41CE49C5000B33E88 /* main.m */,
@@ -325,11 +368,11 @@
 				84F58C491CE49CD800B33E88 /* clock.png in Resources */,
 				84F58C031CE49C5000B33E88 /* Assets.xcassets in Resources */,
 				84F58C421CE49CD800B33E88 /* book40.png in Resources */,
+				8465CAE11CE4A90700111FF3 /* WORK6.storyboard in Resources */,
 				84F58C511CE49CD800B33E88 /* photo.png in Resources */,
 				84F58C4D1CE49CD800B33E88 /* edit user.png in Resources */,
 				84F58C4E1CE49CD800B33E88 /* phone-red.png in Resources */,
 				84F58C4B1CE49CD800B33E88 /* CustomCell.xib in Resources */,
-				84F58BFE1CE49C5000B33E88 /* Main.storyboard in Resources */,
 				84F58C451CE49CD800B33E88 /* book87.png in Resources */,
 				84F58C4C1CE49CD800B33E88 /* delete.png in Resources */,
 				84F58C431CE49CD800B33E88 /* book58.png in Resources */,
@@ -364,9 +407,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8465CAEB1CE4B18F00111FF3 /* Call.m in Sources */,
 				84F58BF81CE49C5000B33E88 /* AppDelegate.m in Sources */,
 				84F58BF51CE49C5000B33E88 /* main.m in Sources */,
 				84F58C011CE49C5000B33E88 /* WORK6.xcdatamodeld in Sources */,
+				8465CAED1CE4B18F00111FF3 /* Contact.m in Sources */,
+				8465CB341CE50A8300111FF3 /* DetailViewController.m in Sources */,
+				8465CAEC1CE4B18F00111FF3 /* Contact+CoreDataProperties.m in Sources */,
+				8465CAEA1CE4B18F00111FF3 /* Call+CoreDataProperties.m in Sources */,
+				8465CB2D1CE4F04A00111FF3 /* TableViewController.m in Sources */,
+				8465CB301CE4F32F00111FF3 /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,14 +452,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		84F58BFC1CE49C5000B33E88 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84F58BFD1CE49C5000B33E88 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84F58C041CE49C5000B33E88 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

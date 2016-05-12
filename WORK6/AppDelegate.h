@@ -6,7 +6,9 @@
 //  Copyright © 2016 SanSetSin. All rights reserved.
 //
 
+
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
@@ -19,7 +21,6 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
-
 
 @end
 
