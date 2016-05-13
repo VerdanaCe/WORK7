@@ -47,6 +47,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8465CB7E1CE538B800111FF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8465CB781CE538B600111FF3 /* WORK7.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8465CB3F1CE538B600111FF3;
+			remoteInfo = WORK7;
+		};
+		8465CB801CE538B800111FF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8465CB781CE538B600111FF3 /* WORK7.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8465CB5B1CE538B600111FF3;
+			remoteInfo = WORK7Tests;
+		};
+		8465CB821CE538B800111FF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8465CB781CE538B600111FF3 /* WORK7.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8465CB661CE538B600111FF3;
+			remoteInfo = WORK7UITests;
+		};
 		84F58C0D1CE49C5000B33E88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 84F58BE81CE49C4F00B33E88 /* Project object */;
@@ -80,6 +101,7 @@
 		8465CB2F1CE4F32F00111FF3 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		8465CB321CE50A8300111FF3 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		8465CB331CE50A8300111FF3 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8465CB781CE538B600111FF3 /* WORK7.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WORK7.xcodeproj; path = WORK7/WORK7.xcodeproj; sourceTree = "<group>"; };
 		84F58BF01CE49C5000B33E88 /* WORK6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WORK6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F58BF41CE49C5000B33E88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84F58BF61CE49C5000B33E88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -157,9 +179,20 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		8465CB791CE538B600111FF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8465CB7F1CE538B800111FF3 /* WORK7.app */,
+				8465CB811CE538B800111FF3 /* WORK7Tests.xctest */,
+				8465CB831CE538B800111FF3 /* WORK7UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		84F58BE71CE49C4F00B33E88 = {
 			isa = PBXGroup;
 			children = (
+				8465CB781CE538B600111FF3 /* WORK7.xcodeproj */,
 				84F58BF21CE49C5000B33E88 /* WORK6 */,
 				84F58C0F1CE49C5000B33E88 /* WORK6Tests */,
 				84F58C1A1CE49C5000B33E88 /* WORK6UITests */,
@@ -344,6 +377,12 @@
 			mainGroup = 84F58BE71CE49C4F00B33E88;
 			productRefGroup = 84F58BF11CE49C5000B33E88 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8465CB791CE538B600111FF3 /* Products */;
+					ProjectRef = 8465CB781CE538B600111FF3 /* WORK7.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				84F58BEF1CE49C5000B33E88 /* WORK6 */,
@@ -352,6 +391,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8465CB7F1CE538B800111FF3 /* WORK7.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = WORK7.app;
+			remoteRef = 8465CB7E1CE538B800111FF3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8465CB811CE538B800111FF3 /* WORK7Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = WORK7Tests.xctest;
+			remoteRef = 8465CB801CE538B800111FF3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8465CB831CE538B800111FF3 /* WORK7UITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = WORK7UITests.xctest;
+			remoteRef = 8465CB821CE538B800111FF3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		84F58BEE1CE49C5000B33E88 /* Resources */ = {
