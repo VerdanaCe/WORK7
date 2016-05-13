@@ -79,16 +79,7 @@ NSString *storeFileName = @"WORK7.sqlite";
     if (_store) {
         return;
     }
-    /*
-     NSDictionary *options = @{
-     NSMigratePersistentStoresAutomaticallyOption:@YES,
-     // CoreData会把低版本的持久存储区迁移到最新版
-     NSInferMappingModelAutomaticallyOption:@NO,
-     // 自动推断出源模型实体。
-     NSSQLitePragmasOption:@{@"journal_mode":@"DELETE"}
-     };
-     */
-    
+      
     NSError *error;
     _store = [_coordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:[self storeURL] options:nil error:&error];
     if (!_store) {

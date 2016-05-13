@@ -17,8 +17,6 @@
     self.firstNameLabel.text = [contact valueForKey:@"firstName"];
     self.phoneLabel.text = [contact valueForKey:@"phone"];
     self.emailLabel.text = [contact valueForKey:@"email"];}
-
-
 - (IBAction)delBtn:(id)sender {
      NSLog(@"Unresolved error");
 }
